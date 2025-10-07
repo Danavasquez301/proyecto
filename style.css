@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0b4b1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0b4b1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*gap: 60px;  Opcional, para espacio entre las imágenes */
+}
+
+.galeria img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+ /* Contenedor personalizado */
+    #translate-wrapper {
+      display: inline-block;
+      background: #f0f0f0;
+      border-radius: 8px;
+      padding: 8px 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Ocultar el texto predeterminado "Select Language" que aparece en algunos navegadores */
+    .goog-te-banner-frame.skiptranslate {
+      display: none !important;
+    }
+
+    /* Personalizar el select */
+    #google_translate_element select {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 6px 10px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: border-color 0.3s ease;
+    }
+
+    #google_translate_element select:hover {
+      border-color: #007BFF;
+    }
+

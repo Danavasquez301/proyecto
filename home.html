@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Document</title>
+<style>
+  /* Box sizing para todos los elementos */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding-bottom: 120px; /* espacio para footer fijo */
+    margin-left: 20px;     /* margen izquierdo */
+    margin-right: 20px;    /* margen derecho */
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #0b4b1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-left: -20px;   /* para que el header abarque todo el ancho */
+    margin-right: -20px;  /* igual que arriba */
+  }
+
+ footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* 100% de la pantalla */
+  background-color: #0b4b1a;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+  nav ul a {
+    color: white;
+    text-decoration: none;
+  }
+
+  h2 {
+    color: #063210;
+  }
+
+  h4 {
+    color: #116c26;
+  }
+
+  section p {
+    margin-bottom: 24px;
+  }
+
+  section p:last-child {
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Información sobre nosotros</h1>
+  <nav>
+    <ul>
+      <a href="index.html">Volver</a>
+    </ul>
+  </nav>
+</header>
+
+<h2>¿Qué Hacemos?</h2>
+
+<p>• Rescatamos la historia a través de líneas de tiempo, artículos y entrevistas, exploramos la evolución de la cocina en distintas culturas, desde lo ancestral hasta lo contemporáneo.</p>
+
+<h4>Compartimos recetas reales</h4>
+<p>• Recetas caseras, tradicionales y modernas.</p>
+<p>• Fáciles de preparar, pensadas para disfrutar y reconectar con el placer de cocinar.</p>
+
+<h4>Exploramos ingredientes con alma</h4>
+<p>• Cada alimento tiene su historia.</p>
+<p>• Publicamos artículos breves sobre ingredientes esenciales, sus usos, valores nutricionales y raíces culturales.</p>
+
+<h4>Impulsamos las voces locales</h4>
+<p>• Entrevistamos a cocineros, cocineras, productores y amantes de la cocina de todas partes, porque creemos en el poder de las historias contadas desde la mesa.</p>
+
+<section class="DAN">
+  <h2>Conectamos comunidad</h2>
+  <p>• Queremos que este sea un espacio participativo.</p>
+  <p>• Abrimos las puertas a quienes quieran compartir sus recetas, sus recuerdos y su visión sobre la comida.</p>
+</section>
+
+<h2>¿Por qué lo hacemos?</h2>
+<p>• Porque la cocina es mucho más que técnica o sabor: es cultura, memoria, afecto y transformación.</p>
+<p>• Es el punto de partida de muchas historias.</p>
+<p>• Y creemos que compartirlas es una forma de alimentarnos también desde lo humano.</p>
+
+<h2>Únete a la comunidad</h2> 
+<p>• ¿Tienes una receta familiar que quieras compartir?</p>
+<p>• ¿Un ingrediente que usas de una forma especial?</p>
+<p>• ¿Quieres contar cómo la cocina te conecta con tu cultura?</p>
+
+<h4>Escríbenos o súmate a nuestras redes.</h4>
+<img src="img/redes2.jpg" alt=""  width="300" height="200">
+
+<footer>
+  <p>&copy; 2025 Mi Platillo es tu Sazón. Todos los derechos reservados.</p>
+  <p>Contacto: miplatilloestusazon.com</p>
+  <div id="translate-wrapper">
+    <div id="google_translate_element"></div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'es',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
